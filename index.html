@@ -1,0 +1,44 @@
+<!--
+  Project by Zua 
+  https://github.com/thatziv/webhook
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Discord Webhook Sender</title>
+  <meta name="author" content="Keltoş Şirin">
+  <meta name="description" content="Simple Discord Webhook Sender">
+  <meta name="keywords" content="discord,zua,webhook">
+  <meta name="title" content="Discord Webhook Sender">
+  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+  </head>
+  <body>
+
+    <div id="header">
+      <h>Discord Webhook Sender</h>
+    </div>
+    <div id="container">
+      <div class="center-align">
+        <p>Webhook Linki:</p><input type='text' id="link" placeholder="Webhook URL'sini butaya girin örn. https://discordapp.com/api/webhooks/462759446225879041/CX-NNGFq5zjht82fQSJUTN2Or2DGq8UTwoIlhHgZ7lTJ6-wlHlRshIRuOC0nE6frfSwG">
+        <p>Bot Kullanıcı adı:</p><input type="text" id="username" placeholder="Webhook'un Kullanıcı Adını Buraya Girin" value="SPAMCI AGA 31">
+        <p>Avatar Resim Linki:</p><input type="text" id="avatar" placeholder="Koyacağınız Remin URL'si">
+        <p>Gönderilecek Mesaj:</p><input type="text" id="content" placeholder="Webhook'un Tekrar Tekrar göndereceği Mesajı Girin">
+        <br>
+        <button id="btn">Göner</button>
+        <center>
+       <!--JS log in the works atm-->
+        <p id='log'></p>
+      </center>
+    </div>
+  </div> 
+  </div>
+  <div id="footer">
+    Telif Hakkı &copy; <a href="https://github.com/mrcbrbn5361/">Keltoş Şirin</a>
+  </div>
+ <script src="jquery.js"></script>
+  <script src="main.js"></script>
+  </body>
+</html>
